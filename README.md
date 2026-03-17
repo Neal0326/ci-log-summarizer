@@ -1,6 +1,6 @@
-# CI Log Summarizer
+# AI CI Log Summarizer
 
-Stop reading raw CI logs. Get a concise AI summary in seconds.
+Stop reading CI logs. Get instant AI summaries of GitHub Actions failures.
 
 ## When to use this vs CI Failure Explainer
 
@@ -9,6 +9,7 @@ Stop reading raw CI logs. Get a concise AI summary in seconds.
 
 Use Summarizer when you want quick signal.
 Use Explainer when you need detailed debugging.
+Use this for quick summaries. Use CI Failure Explainer for deep analysis.
 
 CI Log Summarizer is a production-oriented GitHub Action built for fast CI triage. It detects failed jobs in the current workflow run, downloads the failed logs, sanitizes and truncates them, and turns them into a compact report developers can use immediately.
 

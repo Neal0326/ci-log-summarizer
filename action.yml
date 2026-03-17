@@ -1,5 +1,5 @@
-name: CI Log Summarizer
-description: Summarize failed GitHub Actions logs into a short, useful report for developers.
+name: AI CI Log Summarizer
+description: Stop reading CI logs. Get instant AI summaries of GitHub Actions failures.
 author: OpenAI Codex
 
 inputs:

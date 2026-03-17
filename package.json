@@ -2,7 +2,7 @@
   "name": "ci-log-summarizer",
   "version": "1.0.0",
   "private": true,
-  "description": "GitHub Action that summarizes failed GitHub Actions logs with OpenAI.",
+  "description": "Stop reading CI logs. Get instant AI summaries of GitHub Actions failures.",
   "main": "dist/index.js",
   "scripts": {
     "build": "ncc build src/index.ts -o dist --source-map --license licenses.txt",
