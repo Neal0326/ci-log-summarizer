@@ -175,6 +175,17 @@ That keeps requests small and costs predictable for most CI runs.
 
 If the OpenAI request fails, the action does not fail the whole workflow. It produces a deterministic fallback summary and still writes the job summary. If the OpenAI API key is missing, the action marks the run as `skipped` and explains why.
 
+## OpenAI API Key
+
+This action requires an OpenAI API key.
+
+You must provide your own key:
+
+```yaml
+with:
+  openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+```
+
 ## Publishing
 
 This project is structured like a publishable JavaScript action:
